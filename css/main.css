@@ -13,7 +13,7 @@
 
 body {
     background: var(--preto);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'arial', Times, serif;
     color: white;
     margin-left: 5px;
 
@@ -47,20 +47,21 @@ header nav a:hover{
 /*Relacionado ao filme principal*/
 
 .filme-principal{
-    font-size: 23px;
+    font-size: 20px;
     background: linear-gradient(rgba(0,0,0,-50), rgba(0,0,0,-50)100%), url('/img/Lucifer.jpg');
-    height: 850px;
+    height: 75vh;
     background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    background-image: cover;
+    background-repeat: no-repeat;
 }
 
 .filme-principal .sinopse{
     margin-bottom: 40px;
-    text-align: justify;
-    margin-right: 10%;
+    text-align:justify;
     margin-top: 10px;
 }
 .titulo{
@@ -103,4 +104,9 @@ header nav a:hover{
     width: 100%;
     height: 100%;
     display: block;
+
+}
+
+.carrosel-filmes{
+    margin-top: 5px;
 }
