@@ -124,11 +124,11 @@ body{
 
 .login-facebook span a{
     text-decoration: none;
-    color: #373737;
+    color:#8c8c8c;
 }
 
 .novo-login{
-    color:#373737;
+    color:#8c8c8c;
     font-size: 16px;
 }
 
@@ -139,12 +139,12 @@ body{
 }
 
 .termos{
-    color: #373737;
+    color: #8c8c8c;
     font-size: 13px;
 }
 
 .termos a{
     text-decoration: none;
-    color:#007;
-    
+    color:#0071eb;
+
 }
