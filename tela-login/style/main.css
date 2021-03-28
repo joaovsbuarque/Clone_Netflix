@@ -86,6 +86,65 @@ body{
 
 .ajuda{
     display: flex;
-    color:#fff
+    color:#b3b3b3;
+    justify-content:space-between;
+    font-size: 12px; 
 }
 
+.lembrar{
+    display: flex;
+    align-items:center;
+}
+
+.lembrar span{
+    margin-right: 10px;
+    height: 25px;
+}
+
+.ajuda input{
+    width: 15px;
+    height: 15px;
+}
+
+.login-facebook{
+    display: flex;
+    align-items: center;
+    color: #737373;
+    width: 100%;
+}
+.login-facebook img{
+    width: 20px;
+    height: 20px;  
+}
+
+.login-facebook span{
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+.login-facebook span a{
+    text-decoration: none;
+    color: #373737;
+}
+
+.novo-login{
+    color:#373737;
+    font-size: 16px;
+}
+
+.novo-login a{
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.termos{
+    color: #373737;
+    font-size: 13px;
+}
+
+.termos a{
+    text-decoration: none;
+    color:#007;
+    
+}
