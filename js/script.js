@@ -14,3 +14,12 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+
+function ToggleVideo(){
+    const botao = document.querySelector('.video');
+    const video = document.querySelector('video');
+    video.classList.toggle('active');
+
+    video.currentTime = 0;
+    video.pause();
+}
