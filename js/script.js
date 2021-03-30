@@ -22,4 +22,6 @@ function ToggleVideo(){
 
     video.currentTime = 0;
     video.pause();
+
 }
+

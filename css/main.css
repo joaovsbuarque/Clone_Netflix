@@ -126,3 +126,10 @@ header nav a:hover{
     visibility:hidden;
     opacity: 0;
 }
+
+.video.active{
+    visibility: visible;
+    opacity: 1;
+    
+
+}
